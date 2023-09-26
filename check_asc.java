@@ -10,7 +10,6 @@ public class check_asc {
                 return false;
             }
         }
-    
         public static void main(String args[]){
             int arr[]={1,3,5};
             System.out.println(sort(arr,0));
