@@ -1,4 +1,4 @@
-public class sorted_or_not {
+public class issorted {
     public static boolean sort(int arr[],int idx){
         if(idx==arr.length-1){
             return true;
