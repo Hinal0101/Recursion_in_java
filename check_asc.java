@@ -1,4 +1,4 @@
-public class is_Sorted {
+public class check_asc {
         public static boolean sort(int arr[],int idx){
             if(idx==arr.length-1){
                 return true;
@@ -16,3 +16,4 @@ public class is_Sorted {
             System.out.println(sort(arr,0));
         }
 }
+
