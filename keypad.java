@@ -6,15 +6,18 @@ public class keypad {
             System.out.println(combination);
             return;
         }
-        char currChar=str.charAt(idx);
-        String mapping=keypad[currChar-'0'];
-
+        char currChar=str.charAt(idx);  //2
+        String mapping=keypad[currChar-'0'];  //def
+                        //3
         for(int i=0;i<mapping.length();i++){
             printComb(str, idx+1, combination+mapping.charAt(i));
+            //dgj
+            //dgk
+            //dgl...
         }
     }
     public static void main(String args[]){
-        String str="23";
+        String str="234";
         printComb(str, 0, "");
     }
 }
