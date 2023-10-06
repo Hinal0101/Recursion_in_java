@@ -20,3 +20,5 @@ Time complexities of some important algorithms:
    Link for the code: https://github.com/Hinal0101/Recursion_in_java/blob/main/unique_subsequence.java
 9. Print keypad combination - O(4^n)<br>
    Link for the code: https://github.com/Hinal0101/Recursion_in_java/blob/main/keypad.java
+10. Binary Search - O(logn)<br>
+   Link for the code: https://github.com/Hinal0101/Recursion_in_java/blob/main/recursion_binarysearch.java
