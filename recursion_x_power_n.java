@@ -4,7 +4,7 @@ public class recursion_x_power_n {
             return 0;
         }
         if(n==0){       //base case 2
-            return x;
+            return 1;
         } 
         return x*power_n(x,n-1);  //kaam
     }
